@@ -1,11 +1,14 @@
 def main():
-    name = input("Enter your name: ")
-    other = input("Enter your date of birth (XX/XX/XXXX): ")
+    try:
+        name = input("Enter your name: ")
+        other = input("Enter your date of birth (XX/XX/XXXX): ")
+    except:
+        print("That was not in a valid format, please try again")
 
-    zsign = something(name,other)
-    print(name, "your zodiac sign is", zsign)
+    zodiac = something(name,other)
+    print(name + ", your zodiac sign is: " + zodiac)
 
-def something(name, other):
+def something(name,other):
     DOB = other.split("/")
 
     for i in range(3):
@@ -39,7 +42,7 @@ def something(name, other):
     elif(m == 2 and d >= 19 or m == 3 and d <= 20):
         return "Pisces"
     else:
-        return "Something went wrong"
+        return("ERROR, Something broke :(")
 
 
 
