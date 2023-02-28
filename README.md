@@ -3,7 +3,7 @@ Created by Jeremy Luu and Benjamin Kasper
 
 **What the Software Does**
 
-Our program takes in the user's name and date of birth. It then outputs using that information the zodiac sign of the user.
+This program will take the user's name and bate of birth. From that, it will determine what zodiac sign the user is. That's it
 
 **How to Use the Program**
 - Make sure you have python installed.
@@ -13,7 +13,6 @@ Our program takes in the user's name and date of birth. It then outputs using th
 
 **Why we Chose our Code of Conduct and License**
 
-We choose an academic free license beause our code doesn't really have any major use and it is pretty simple, so we would want to share it with the most
-amount of people as well as let them use and edit our program.
+We chose a free license that we found online because our program isnt really that useful, so we wanted to share it with a lot of people and they should be allowed to use and edit their program.
 
-We choose a code of conduct that allowed user for a free experience but was strict on the misuse of the product.
+Our code of conduct allows a user to use the program for free but is strict on the misuse of the product. 
